@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | UI/UX Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/additional.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="index.html">PORTFOLIO</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">UI/UX Designer</p>
+            <h1 class="hero-title">
+                Crafting digital<br>
+                experiences with<br>
+                <span class="highlight">purpose</span> & <span class="highlight">precision</span>
+            </h1>
+            <p class="hero-description">
+                I design intuitive interfaces that balance aesthetics with functionality,
+                creating meaningful connections between users and products.
+            </p>
+            <div class="hero-cta">
+                <a href="works.html" class="btn btn-primary">View Work</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80" 
+                     alt="Design workspace" 
+                     class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Works -->
+    <section class="featured-works">
+        <div class="section-header">
+            <h2 class="section-title">Selected Works</h2>
+            <p class="section-subtitle">A curation of recent projects</p>
+        </div>
+        <div class="works-grid">
+            <article class="work-card">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" 
+                         alt="Fintech Dashboard Project">
+                    <div class="work-overlay">
+                        <span class="work-category">Dashboard Design</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h3 class="work-title">Finance Dashboard</h3>
+                    <p class="work-description">A comprehensive financial analytics platform with real-time data visualization</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+            <article class="work-card">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80" 
+                         alt="Mobile App Project">
+                    <div class="work-overlay">
+                        <span class="work-category">Mobile App</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h3 class="work-title">Health & Fitness App</h3>
+                    <p class="work-description">Personal wellness tracking application with AI-powered insights</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+            <article class="work-card">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&q=80" 
+                         alt="E-commerce Project">
+                    <div class="work-overlay">
+                        <span class="work-category">E-commerce</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <h3 class="work-title">Luxury E-commerce</h3>
+                    <p class="work-description">Premium shopping experience with curated collections</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+        </div>
+        <div class="section-footer">
+            <a href="works.html" class="btn btn-outline">View All Projects</a>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="section-header">
+            <h2 class="section-title">Design Process</h2>
+        </div>
+        <div class="process-grid">
+            <div class="process-item">
+                <div class="process-number">01</div>
+                <h3 class="process-title">Discover</h3>
+                <p class="process-description">Understanding user needs and business goals through research and analysis</p>
+            </div>
+            <div class="process-item">
+                <div class="process-number">02</div>
+                <h3 class="process-title">Define</h3>
+                <p class="process-description">Synthesizing insights to define clear problems and design opportunities</p>
+            </div>
+            <div class="process-item">
+                <div class="process-number">03</div>
+                <h3 class="process-title">Design</h3>
+                <p class="process-description">Creating solutions through iterative design and prototyping</p>
+            </div>
+            <div class="process-item">
+                <div class="process-number">04</div>
+                <h3 class="process-title">Deliver</h3>
+                <p class="process-description">Refining and handing off polished designs ready for development</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number" data-target="50">0</span>
+                <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="30">0</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="5">0</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="100">0</span>
+                <span class="stat-label">Design Awards</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h3 class="footer-title">Let's work together</h3>
+                <p class="footer-description">Have a project in mind? I'd love to hear about it.</p>
+                <a href="mailto:hello@designportfolio.com" class="footer-email">hello@designportfolio.com</a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-social">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Dribbble</a>
+                    <a href="#" class="social-link">Behance</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+                <p class="footer-copyright">© 2024 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

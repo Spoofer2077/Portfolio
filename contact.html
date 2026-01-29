@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/additional.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="index.html">PORTFOLIO</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1 class="page-title">Get in Touch</h1>
+        <p class="page-subtitle">Have a project in mind? Let's discuss how we can work together.</p>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-main">
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3 class="contact-label">Email</h3>
+                <a href="mailto:hello@designportfolio.com" class="contact-value">hello@designportfolio.com</a>
+            </div>
+            <div class="contact-item">
+                <h3 class="contact-label">Location</h3>
+                <p class="contact-value">San Francisco, CA</p>
+            </div>
+            <div class="contact-item">
+                <h3 class="contact-label">Availability</h3>
+                <p class="contact-value available">Open to new projects</p>
+            </div>
+            
+            <div class="social-links">
+                <h3 class="social-label">Follow Me</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">Dribbble</a>
+                    <a href="#" class="social-icon">Behance</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <select id="subject" name="subject" class="form-input form-select" required>
+                        <option value="">Select a subject</option>
+                        <option value="project">Project Inquiry</option>
+                        <option value="collaboration">Collaboration</option>
+                        <option value="freelance">Freelance Opportunity</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="budget" class="form-label">Budget Range</label>
+                    <select id="budget" name="budget" class="form-input form-select">
+                        <option value="">Select budget range</option>
+                        <option value="small">$1,000 - $5,000</option>
+                        <option value="medium">$5,000 - $15,000</option>
+                        <option value="large">$15,000 - $50,000</option>
+                        <option value="enterprise">$50,000+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-input form-textarea" placeholder="Tell me about your project..." rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-loading" style="display: none;">Sending...</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="section-header">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3 class="faq-question">What is your typical project timeline?</h3>
+                <p class="faq-answer">Project timelines vary based on scope and complexity. A simple website might take 4-6 weeks, while a complex application could take 3-6 months. I'll provide a detailed timeline after understanding your project requirements.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">How do you handle revisions?</h3>
+                <p class="faq-answer">I include multiple revision rounds in my project scope to ensure we're aligned. Additional revisions beyond the agreed scope can be accommodated at an hourly rate.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">Do you work with clients remotely?</h3>
+                <p class="faq-answer">Absolutely! I've worked with clients worldwide. We can communicate through video calls, email, and project management tools to keep everything on track.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">What does your design process include?</h3>
+                <p class="faq-answer">My process typically includes: Discovery & Research, Wireframing, Visual Design, Prototyping, and Handoff. Each phase involves collaboration and feedback to ensure we're moving in the right direction.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h3 class="footer-title">Let's work together</h3>
+                <p class="footer-description">Have a project in mind? I'd love to hear about it.</p>
+                <a href="mailto:hello@designportfolio.com" class="footer-email">hello@designportfolio.com</a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-social">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Dribbble</a>
+                    <a href="#" class="social-link">Behance</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+                <p class="footer-copyright">© 2024 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

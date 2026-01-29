@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/additional.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="index.html">PORTFOLIO</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="works.html" class="active">Works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1 class="page-title">Selected Works</h1>
+        <p class="page-subtitle">A collection of projects spanning web, mobile, and product design</p>
+    </header>
+
+    <!-- Filter Tags -->
+    <section class="work-filters">
+        <div class="filter-tags">
+            <button class="filter-tag active" data-filter="all">All</button>
+            <button class="filter-tag" data-filter="web">Web Design</button>
+            <button class="filter-tag" data-filter="mobile">Mobile App</button>
+            <button class="filter-tag" data-filter="dashboard">Dashboard</button>
+            <button class="filter-tag" data-filter="branding">Branding</button>
+        </div>
+    </section>
+
+    <!-- Works Grid -->
+    <section class="works-showcase">
+        <div class="works-grid large">
+            <!-- Work 1 -->
+            <article class="work-card featured" data-category="dashboard">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80" 
+                         alt="Fintech Dashboard Project">
+                    <div class="work-overlay">
+                        <span class="work-category">Dashboard Design</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span class="tag">UX Research</span>
+                        <span class="tag">UI Design</span>
+                        <span class="tag">Data Visualization</span>
+                    </div>
+                    <h3 class="work-title">Finance Dashboard</h3>
+                    <p class="work-description">A comprehensive financial analytics platform enabling users to track investments, analyze market trends, and make data-driven decisions through intuitive data visualization and real-time updates.</p>
+                    <div class="work-meta">
+                        <span class="work-date">2024</span>
+                        <span class="work-client">Fintech Corp</span>
+                    </div>
+                    <a href="#" class="work-link">View Case Study →</a>
+                </div>
+            </article>
+
+            <!-- Work 2 -->
+            <article class="work-card" data-category="mobile">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80" 
+                         alt="Mobile App Project">
+                    <div class="work-overlay">
+                        <span class="work-category">Mobile App</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span class="tag">iOS</span>
+                        <span class="tag">Android</span>
+                    </div>
+                    <h3 class="work-title">Health & Fitness App</h3>
+                    <p class="work-description">Personal wellness tracking with AI-powered workout recommendations and nutrition planning.</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+
+            <!-- Work 3 -->
+            <article class="work-card" data-category="web">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" 
+                         alt="E-commerce Website">
+                    <div class="work-overlay">
+                        <span class="work-category">Web Design</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span class="tag">E-commerce</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <h3 class="work-title">Luxury E-commerce Platform</h3>
+                    <p class="work-description">Premium shopping experience featuring curated collections and personalized recommendations.</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+
+            <!-- Work 4 -->
+            <article class="work-card" data-category="dashboard">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&q=80" 
+                         alt="Analytics Dashboard">
+                    <div class="work-overlay">
+                        <span class="work-category">Analytics</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span class="tag">SaaS</span>
+                        <span class="tag">B2B</span>
+                    </div>
+                    <h3 class="work-title">Analytics Dashboard</h3>
+                    <p class="work-description">Business intelligence tool with customizable widgets and collaborative features.</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+
+            <!-- Work 5 -->
+            <article class="work-card" data-category="mobile">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80" 
+                         alt="Travel App">
+                    <div class="work-overlay">
+                        <span class="work-category">Mobile App</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span class="tag">Travel</span>
+                        <span class="tag">Booking</span>
+                    </div>
+                    <h3 class="work-title">Travel Booking App</h3>
+                    <p class="work-description">Seamless travel planning and booking experience with smart recommendations.</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+
+            <!-- Work 6 -->
+            <article class="work-card" data-category="branding">
+                <div class="work-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80" 
+                         alt="Brand Identity">
+                    <div class="work-overlay">
+                        <span class="work-category">Branding</span>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-tags">
+                        <span class="tag">Identity</span>
+                        <span class="tag">Guidelines</span>
+                    </div>
+                    <h3 class="work-title">Brand Identity Design</h3>
+                    <p class="work-description">Complete brand overhaul including logo, visual identity, and design system.</p>
+                    <a href="#" class="work-link">View Project →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2 class="cta-title">Interested in working together?</h2>
+            <p class="cta-description">I'm always open to discussing new projects and opportunities.</p>
+            <a href="contact.html" class="btn btn-primary">Let's Talk</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <h3 class="footer-title">Let's work together</h3>
+                <p class="footer-description">Have a project in mind? I'd love to hear about it.</p>
+                <a href="mailto:hello@designportfolio.com" class="footer-email">hello@designportfolio.com</a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-social">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Dribbble</a>
+                    <a href="#" class="social-link">Behance</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+                <p class="footer-copyright">© 2024 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
