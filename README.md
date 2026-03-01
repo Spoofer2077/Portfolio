@@ -184,4 +184,4 @@ Suggestions and improvements are welcome! Feel free to open an issue or submit a
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Spoofer
